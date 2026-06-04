@@ -1,88 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.hero {
+    height: 100vh;
 
-body {
-    background-color: #111111;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.75),
+            rgba(0,0,0,0.75)
+        ),
+        url("assets/newton-BG.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: 0;
+}
+
+.hero-content {
+    max-width: 800px;
     padding: 20px;
 }
 
-h1 {
-    color: #ff4444;
-    margin-bottom: 10px;
-}
-
-h2 {
-    color: #ffffff;
-    margin-top: 50px;
-    margin-bottom: 15px;
-}
-
-p {
-    color: #cccccc;
-    width: 70%;
-    margin: auto;
+.hero-content h1 {
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 
-img {
-    width: 400px;
-    max-width: 90%;
-    border: 2px solid #333333;
-    border-radius: 10px;
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
 }
 
-a {
-    display: inline-block;
-    background-color: #ff4444;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-
-a:hover {
-    background-color: #cc3333;
-}
-
-hr {
-    border: 1px solid #333333;
-    margin-top: 50px;
-}
-
-.container {
-    max-width: 1000px;
-    margin: auto;
-}
-
-.gallery {
-    margin-top: 20px;
-}
-
-.gallery img {
-    width: 280px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.links {
-    margin-top: 20px;
-}
-
-.links a {
-    display: inline-block;
-    margin: 10px;
-}
-
-.links img {
-    width: 32px;
-    height: 32px;
-    vertical-align: middle;
-    margin-right: 8px;
-    border: none;
+.hero-content a {
+    font-size: 1.2rem;
+    padding: 14px 28px;
 }
