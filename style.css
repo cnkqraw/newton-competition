@@ -158,3 +158,55 @@ a:hover {
 i {
     margin-right: 8px;
 }
+
+/* ===== CARD GRID ===== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #ff4444;
+    box-shadow: 0 15px 35px rgba(255, 68, 68, 0.2);
+}
+
+/* image */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: none;
+}
+
+/* text */
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 0;
+    color: #ff4444;
+    font-size: 1.2rem;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-top: 8px;
+    width: 100%;
+}
