@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Newton Project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="nbabarwalogo.webp" alt="Logo" class="logo">
+            <span class="brand">Newton Project</span>
+        </div>
+
+        <div class="nav-right">
+            <a href="#overview">Overview</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#presentation">Presentation</a>
+            <a href="#downloads">Downloads</a>
+            <a href="#team">Team</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
     <div class="hero">
         <div class="hero-content">
 
@@ -30,21 +47,21 @@
 
     <div class="container">
 
-        <h2>│ <i class="fa-solid fa-circle-info"></i> Project Overview</h2>
+        <h2 id="overview">│ <i class="fa-solid fa-circle-info"></i> Project Overview</h2>
 
         <p>
             This project explores the history of the Newton Group through
             an interactive digital experience.
         </p>
 
-        <h2>│ <i class="fa-solid fa-images"></i> Project Gallery</h2>
+        <h2 id="gallery">│ <i class="fa-solid fa-images"></i> Project Gallery</h2>
 
         <div class="gallery">
             <img src="assets/project1.png" alt="Project Image 1">
             <img src="assets/project2.png" alt="Project Image 2">
         </div>
 
-        <h2>│ <i class="fa-solid fa-file-powerpoint"></i> Presentation</h2>
+        <h2 id="presentation">│ <i class="fa-solid fa-file-powerpoint"></i> Presentation</h2>
 
         <div class="gallery">
             <img src="assets/slide1.png" alt="Slide 1">
@@ -56,7 +73,7 @@
             Download Presentation
         </a>
 
-        <h2>│ <i class="fa-solid fa-folder-open"></i> Downloads</h2>
+        <h2 id="downloads">│ <i class="fa-solid fa-folder-open"></i> Downloads</h2>
 
         <a href="downloads/source-code.zip" download>
             <i class="fa-solid fa-file-zipper"></i>
@@ -72,7 +89,7 @@
             </a>
         </div>
 
-        <h2>│ <i class="fa-solid fa-users"></i> Team</h2>
+        <h2 id="team">│ <i class="fa-solid fa-users"></i> Team</h2>
 
         <p>
             <strong><i class="fa-solid fa-globe"></i> Mustaqim</strong>
@@ -87,4 +104,5 @@
     </div>
 
 </body>
+
 </html>
