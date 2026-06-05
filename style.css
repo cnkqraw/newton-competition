@@ -194,13 +194,15 @@ i {
     margin-right: 8px;
 }
 .subtitle {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #ffffff;
     margin-bottom: 5px;
 }
 .names {
     font-size: 1.1rem;
     color: #cccccc;
+    font-style: italic;
+    font-weight: bold;
     margin-bottom: 25px;
 }
 .down-arrow {
