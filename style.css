@@ -116,7 +116,21 @@ img {
     border: 2px solid #333;
     border-radius: 10px;
 }
+.links {
+    margin-top: 20px;
+}
 
+.links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links img {
+    width: 24px;
+    height: 24px;
+    border: none;
+}
 /* ===== BUTTONS ===== */
 
 a {
