@@ -157,6 +157,11 @@ hr {
     color: #ff4444;
     margin-bottom: 15px;
 }
+.award-text {
+    color: #ff4444;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
 /* ===== BUTTONS ===== */
 
 a {
