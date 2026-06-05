@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: "0xProto";
+    src: url("assets/font/0xProtoNerdFont-Regular.ttf");
+}
 
 html {
   scroll-behavior: smooth;
