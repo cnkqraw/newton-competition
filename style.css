@@ -1,15 +1,14 @@
 @font-face {
     font-family: "0xProto";
-    src: url("assets/font/0xProtoNerdFont-Regular.ttf");
+    src: url("assets/fonts/0xProtoNerdFont-Regular.ttf") format("truetype");
 }
-
 html {
   scroll-behavior: smooth;
 }
 body {
     background-color: #111111;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "0xProto", monospace;
     text-align: center;
     margin: 0;
     padding: 0;
