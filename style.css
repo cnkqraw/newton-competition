@@ -131,6 +131,32 @@ img {
     height: 24px;
     border: none;
 }
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 50px auto;
+    width: 80%;
+}
+.previous-project {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #181818;
+    border: 1px solid #333;
+    border-radius: 12px;
+}
+
+.previous-project img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.previous-project h3 {
+    color: #ff4444;
+    margin-bottom: 15px;
+}
 /* ===== BUTTONS ===== */
 
 a {
