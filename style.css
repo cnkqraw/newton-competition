@@ -17,13 +17,13 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(0, 0, 0, 0.70);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 1000;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     box-sizing: border-box;
 }
 
@@ -55,8 +55,8 @@ body {
 
     background:
         linear-gradient(
-            rgba(0,0,0,0.75),
-            rgba(0,0,0,0.75)
+            rgba(0,0,0,0.65),
+            rgba(0,0,0,0.65)
         ),
         url("assets/newton-BG.png");
 
@@ -145,4 +145,20 @@ a:hover {
 
 i {
     margin-right: 8px;
+}
+.subtitle {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.names {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+.down-arrow {
+    margin-top: 35px;
+    color: #ff4444;
+    font-size: 1.5rem;
 }
